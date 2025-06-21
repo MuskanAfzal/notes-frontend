@@ -1,0 +1,14 @@
+.dashboard {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #0b1d3a; /* Midnight Blue */
+  padding: 2rem;
+  border-radius: 8px;/* Neon Cyan glow */
+  color: #e0f7fa;
+}
+
+.dashboard h2 {
+  margin-bottom: 1rem;
+  color: #00ffff; /* Neon Cyan */
+  text-shadow: 0 0 6px #00ffff88;
+}

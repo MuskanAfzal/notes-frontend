@@ -1,0 +1,30 @@
+.auth-container input {
+  background-color: #102542; /* Dark blue background */
+  color: #e0f7fa;            /* Neon Cyan text */
+  border: 1px solid #00ffff55;
+  border-radius: 6px;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.auth-container input::placeholder {
+  color: #00ffff88; /* Placeholder in neon cyan tint */
+}
+
+.auth-container input:focus {
+  outline: none;
+  border-color: #00ffff;
+  box-shadow: 0 0 6px #00ffff88;
+}
+/* Prevent Chrome autofill from turning the background white */
+input,
+input:-webkit-autofill {
+  background-color: #102542 !important;
+  color: #ffffff !important;
+  border: 1px solid #00f7ff;
+  caret-color: #00f7ff;
+  box-shadow: 0 0 0px 1000px #102542 inset !important;
+  -webkit-box-shadow: 0 0 0px 1000px #102542 inset !important;
+  -webkit-text-fill-color: #ffffff !important;
+  transition: background-color 5000s ease-in-out 0s;
+}

@@ -1,38 +1,38 @@
-.App {
-  text-align: center;
+body {
+  background-color: #0b1d3a; /* Deep Midnight Blue */
+  color: #e0f7fa; /* Soft Neon Cyan text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  overflow-x: hidden;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Scrollbar styling (optional but sleek) */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #00ffff77;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-track {
+  background-color: #0b1d3a;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Headings */
+h1, h2, h3, h4, h5 {
+  color: #00ffff;
+  text-shadow: 0 0 6px #00ffff99;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Links */
+a {
+  color: #00ffff;
+  text-decoration: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+a:hover {
+  text-decoration: underline;
+  color: #00e5ff;
 }
